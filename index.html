@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f62fe">
+  <meta name="description" content="合肥工业大学课程资料浏览与下载">
+  <title>合工大课程资料库</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./enhancements.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">HFUT · 课程资料</div>
+      <h1>合工大课程资料库</h1>
+      <p>像资料库 App 一样浏览：课程分类、中文联想搜索、收藏、最近访问、资料类型筛选与快捷下载。</p>
+      <div class="search-area">
+        <div class="search-wrap">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="搜索：高等数学 / 1400x21B / 试卷…" autocomplete="off" aria-autocomplete="list" aria-controls="suggestions">
+          <button id="clearSearch" class="clear-search" type="button" hidden>清除</button>
+        </div>
+        <div id="suggestions" class="suggestions" role="listbox" hidden></div>
+      </div>
+      <div id="statusLine" class="status-line">正在加载资料索引…</div>
+    </div>
+  </header>
+
+  <main class="main">
+    <nav id="breadcrumbs" class="breadcrumbs" aria-label="路径导航"></nav>
+    <section id="content" aria-live="polite">
+      <div class="loading-card">正在读取课程目录…</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>资料源自 <a href="https://github.com/lib-hfut/lib-hfut" target="_blank" rel="noopener">lib-hfut/lib-hfut</a>，本页面为改进的浏览与下载界面。</p>
+    <p>原项目采用 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>。<a href="https://github.com/xueh0635-design/lib-hfut" target="_blank" rel="noopener">查看本仓库</a></p>
+    <p>收藏和最近访问仅保存在当前浏览器；“整课下载”会调用 Download Directory 打包 GitHub 文件夹，不会修改仓库内容。</p>
+  </footer>
+
+  <template id="fileActionsTemplate">
+    <div class="file-actions">
+      <a class="btn secondary js-view" target="_blank" rel="noopener">查看</a>
+      <a class="btn primary js-download" target="_blank" rel="noopener">下载</a>
+    </div>
+  </template>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
