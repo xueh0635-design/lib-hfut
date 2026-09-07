@@ -1,179 +1,118 @@
-# lib-hfut 贵校课程资料民间整理
+# 合工大课程资料库 · lib-hfut 改进版
 
-[![LICENSE](https://img.shields.io/badge/License-CC--BY--4.0-green.svg?style=flat-square)](LICENSE)
-[![LIB-HFUT](https://img.shields.io/badge/lib--hfut-贵校课程资料民间整理-yellow.svg?style=flat-square)](https://github.com/lib-hfut)
-[![CONTRIBUTORS](https://img.shields.io/github/contributors/lib-hfut/lib-hfut?color=1cc&label=Contributor&style=flat-square)](https://github.com/lib-hfut/lib-hfut/graphs/contributors)
-[![DOWNLOAD](https://img.shields.io/github/repo-size/lib-hfut/lib-hfut?color=%23de325e&label=Size&style=flat-square)](https://github.com/lib-hfut/lib-hfut/archive/master.zip)
-[![CONTACTUS](
-https://img.shields.io/badge/Contact-us-ff69b4.svg?style=flat-square)](mailto:libbot@protonmail.com)
+> 基于 [`lib-hfut/lib-hfut`](https://github.com/lib-hfut/lib-hfut) 的个人 Fork，保留原始课程资料，并增加更适合手机端使用的课程资料浏览界面。
 
-## Catalogue
+## 🚀 在线资料库
 
-__[引言](#preface)__ | __[使用方法](#usage)__ | __[参与贡献](#contribution)__ | __[声明](#disclaimer)__ | __[协议](#license)__ | __[相关项目](#relatedworks)__
+### 👉 [点击进入：xueh0635-design.github.io/lib-hfut](https://xueh0635-design.github.io/lib-hfut/)
 
-## Preface
+打开后可以直接：
 
-来到一所大学，从第一次接触许多课，直到一门一门完成，这个过程中我们时常收集起许多资料和情报。
+- 🔎 **中文搜索**：课程名、课程代码、文件名均可搜索
+- 💡 **搜索联想**：输入关键词即可看到课程和文件建议
+- 🗂️ **课程分类**：数学基础、计算机与 AI、电子与信息、工程与机械、通识与语言等
+- ⭐ **收藏课程**：收藏常用课程，并在首页快速访问
+- 🕘 **最近课程**：自动显示近期浏览的课程
+- 📑 **资料类型筛选**：试卷、课件、教材、实验资料、习题作业等
+- 👀 **在线查看**：支持从课程目录直接进入对应文件
+- ⬇️ **文件下载**：单个文件可直接下载
+- 📦 **一键下载课程/目录**：可将整个课程目录打包下载
+- 📱 **手机端优化**：iPhone / Android 浏览更方便
 
-有些是需要在网上搜索的电子书，每次见到一门新课程，Google 一下教材名称，有的可以立即找到，有的却是要花费许多眼力；有些是历年试卷或者 A4 纸，前人精心收集制作，抱着能对他人有用的想法公开，却需要在各个群或者私下中摸索以至于从学长手中代代相传；有些是上完一门课才恍然领悟的技巧，原来这门课重点如此，当初本可以更轻松地完成得更好……
+---
 
-我也曾很努力地收集各种课程资料，但到最后，某些重要信息的得到却往往依然是纯属偶然。这种状态时常令我感到后怕与不安。我也曾在课程结束后终于有了些许方法与总结，但这些想法无处诉说，最终只能把花费时间与精力才换来的经验耗散在了漫漫的遗忘之中。
+## 📱 推荐使用方式
 
-我为这一年一年，这么多人孤军奋战的重复劳动感到不平。
+不用在 GitHub App 里逐层翻目录，直接打开：
 
-我希望能够将这些隐晦的、不确定的、口口相传的资料和经验，变为公开的、易于获取的和大家能够共同完善、积累的共享资料。
+**https://xueh0635-design.github.io/lib-hfut/**
 
-**我希望只要是前人走过的弯路，后人就不必再走。** 这是我的信念，也是我建立这个项目的原因。
+然后：
 
-<p align="right">- 引自 QSCTech/zju-icicles</p>
-
-## Usage
-
-使用方法：
-
-- 在 [lib-hfut: 贵校课程资料民间整理](https://lib-hfut.github.io/lib-hfut/) 中, 找到你要下载的科目和内容, 点击超链接下载。
-
-- 当然, 你也可以使用`DownGit` 或 `Git` 等工具下载。
-
-## Contribution
-
->
->**欢迎贡献！**
->
->**欢迎贡献！**
->
->**欢迎贡献！**
->
->——因为很重要所以说了三遍
->
-
-Issue、PR、纠错、资料、选课/考试攻略，完全欢迎！
-
-来自大家的关注、维护和贡献，才是让这个攻略继续存在的动力~
-
-对于课程的相关评价可写在对应课程文件夹的 `README.md` 中。如果想上传资料（请确保无版权问题），推荐使用 PDF 格式，避免系统差。
-
-**特别注意!!**
-
-*机器人课很多平时很忙, 没有时间协助上传者整理资源。提交前请先检查内容是否存在以下几种典型错误。防止因机器人拒绝PR请求导致资源无法合并到仓库。*
-
-- **上传规则:**
-     - GitHub平台上传规则为 `单个上传文件小于25MB(网页端)` 和 `单次上传文件总数小于100个` 。若要上传大于此限制的的单个文件可以压缩后发送文件至邮箱 `libbot@protonmail.com` 由@libbot-hfut代为上传。
-
-     - 仓库已开启LFS, 但当前仓库的LFS免费空间已满，增加额外空间需要额外成本。为了保持仓库的非盈利状态以维持独立运营，因此 `推荐` 最大单个文件的大小不大于100MB。
-
-- **命名规则:**
-
-     - _文件夹/目录命名:_
-
-          根目录命名 `[课程名称_课程代码]` , 根目录下级子目录命名 `[课程名称+资源类型+(教师)+(年份)]` 的命名规则进行归档。参考书籍/参考答案请直接放在根目录中, 不需要进行分类。
-     - _文件命名:_
-
-          上传的文件需按照 `[课程名称+资源类型+(年份)]` 命名. 若为时效资料(试卷等)应在文件名内注明日期。
-
-- **课程结构示意图**
-
-每门课程大致结构如下，有些课程的子目录可能没有添加，可自行添加合理的子目录。
-
-```plain
-课程名称_课程代码
-├ 课程名称+课件+(教师)
-├ 课程名称+资源+(教师)
-├ 课程名称+试卷
-└参考书等的其他资源
+```text
+首页
+  ↓
+搜索课程 / 选择课程分类
+  ↓
+进入课程
+  ↓
+筛选：试卷 / 课件 / 教材 / 实验资料…
+  ↓
+查看或下载
 ```
 
-- **资源年限:**
-上传的资源是 **近5年** 的。年代久远的资料并不能发挥太大作用。如果材料足够优质, 上传请针对文件进行标记说明, 防止PR请求被拒绝。
+网页源码位于：
 
-*由于本项目体积很大，故推荐采用在 **GitHub Web 端直接上传** 的方式，具体操作如下：*
+```text
+web/
+├── index.html
+├── app.js
+└── style.css
+```
 
-    1. 首先 Fork 本项目(复制到我的仓库)。
-
-    2. 上传文件 / 文件夹
-       i)  上传文件到已有文件夹：
-            打开对应文件夹，点击Upload files，上传你的文件。
-
-       ii) 上传文件到新文件夹：
-            按照课程结构示意图在本地新建一个文件夹后, 进入仓库的主页面。点击 Upload files，上传你的文件夹。
-
-    3. 提交 PR(Pull Request), 等待机器人@libbot-hfut审核。
-
-也可以采用 Github 的[网页编辑器](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor)进行上传，具体操作如下：
-
-    1. 首先 Fork 本项目(复制到我的仓库)。
-
-    2. 方法一: 直接前往 https://github.dev/你的用户名/lib-hfut
-       方法二:
-            1) 打开 https://github.com/你的用户名/lib-hfut
-            2) 按下键盘上的 . 键，以进入 Github 网页编辑器
-
-    3. 上传文件 / 文件夹
-        1) 上传文件到已有文件夹：
-            方法一: 在侧边栏打开对应文件夹，将需要上传的文件拖至文件夹。
-            方法二: 右击文件夹，点击 Upload 进行上传。
-        
-        2) 添加新文件夹（推荐）：
-            推荐使用此方法，可以省去本地新建文件夹的步骤
-            方法一: 在侧边栏右击 - 新建文件夹。
-            方法二: 通过侧边栏顶部按钮新建文件夹。
-
-        3) 上传新文件夹：
-            在将文件夹拖至根目录或右击根目录并点击 Upload 进行上传。
-    
-    4. 提交 PR(Pull Request), 等待机器人@libbot-hfut审核。
-
-你也可以发送邮件至 `libbot@protonmail.com`。仓库的维护者将会通过机器人进行不具名添加。
-
-## Disclaimer
-
-这里不是合肥工业大学图书馆。我们也不对项目中信息的准确性或真实性做任何承诺。
-
-**如果有侵权情况，麻烦您发送相关说明至 `libbot@protonmail.com`。机器人将会把侵权内容删除。给您带来不便还请您谅解。**
-
-## License
-
-**本仓库采用并遵守 `CC-BY-4.0协议`。**
-
->您可以自由地：
->> 共享 — 在任何媒介以任何形式复制、发行本作品
->>
->> 演绎 — 修改、转换或以本作品为基础进行创作在任何用途下，甚至商业目的。
->
->本许可协议为“自由文化作品（Free Cultural Works）”所接受。只要你遵守许可协议条款，许可人就无法收回你的这些权利。
->
->惟须遵守下列条件：
->
->> 署名 — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
->
->没有附加限制 — 您不得适用法律术语或者 技术措施 从而限制其他人做许可协议允许的事情。
-
-**我们不会为收集到的资料收费，或是尝试收取捐赠。如果你曾经为本仓库 `直接支付` 过费用(不含第三方转卖资料)，请要求收款人退款。**
-
-## RelatedWorks
-
-- [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)
-- [libpku - 贵校课程资料民间整理](https://github.com/lib-pku/libpku)
-- [北大计算机课程大作业](https://github.com/tongtzeho/PKUCourse)
-- [清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)
-- [东南大学课程共享计划](https://github.com/zjdx1998/seucourseshare)
-- [中国科学技术大学计算机学院课程资源](https://github.com/USTC-Resource/USTC-Course)
-- [上海交通大学课程资料分享](https://github.com/CoolPhilChen/SJTU-Courses/)
-- [中山大学课程资料分享](https://github.com/sysuexam/SYSU-Exam)
-
-*To be continue..*
+在线页面通过仓库的 `gh-pages` 分支发布。
 
 ---
 
-<p align="center">
-  <a href="https://github.com/lib-hfut/lib-hfut"><img src="https://api.star-history.com/svg?repos=lib-hfut/lib-hfut&type=Date" alt="Star History Chart"></a><br/>
-  Your Contribution Matters. 
-</p>
+## 📚 课程资料
+
+本仓库保留了原项目中的课程资料目录，例如：
+
+```text
+高等数学A_1400x21B
+人工智能原理_0529640X
+Python语言与程序设计_1618020X
+Java技术_0521270X
+……
+```
+
+资料仍然直接存放在 GitHub 仓库中，新网页只是提供了更方便的索引、浏览、筛选和下载方式。
 
 ---
 
-<p align="center">
-  <a href="https://github.com/lib-hfut/lib-hfut"><img src="https://img.shields.io/github/watchers/lib-hfut/lib-hfut.svg?style=social" alt="Watchers"></a>
-  <a href="https://github.com/lib-hfut/lib-hfut"><img src="https://img.shields.io/github/stars/lib-hfut/lib-hfut.svg?style=social" alt="Stars"></a>
-  <a href="https://github.com/lib-hfut/lib-hfut"><img src="https://img.shields.io/github/forks/lib-hfut/lib-hfut.svg?style=social" alt="Fork"></a>
-</p>
+## 🔄 与上游项目的关系
+
+本仓库 Fork 自：
+
+- **原项目：** [`lib-hfut/lib-hfut`](https://github.com/lib-hfut/lib-hfut)
+- **原项目网站：** https://lib-hfut.github.io/lib-hfut/
+
+本 Fork 的主要修改是重新设计课程资料浏览界面，不宣称与合肥工业大学官方有关，也不代表原项目维护者对本改版的背书。
+
+如果上游仓库后续增加课程资料，可以继续同步上游内容，再更新本站索引与界面。
+
+---
+
+## ⚠️ 声明
+
+这里不是合肥工业大学官方图书馆或官方教学平台。
+
+课程资料来自原 `lib-hfut` 社区共享项目。使用、转载或继续维护相关资料时，请注意资料本身可能涉及的版权、隐私和时效性问题。
+
+原项目关于侵权处理、资料贡献和内容声明的完整说明，请查看：
+
+- [原项目 README](https://github.com/lib-hfut/lib-hfut/blob/master/README.md)
+
+---
+
+## 📄 License / Attribution
+
+原仓库采用 **CC BY 4.0**：
+
+- [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+- [本仓库 LICENSE](LICENSE)
+
+本 Fork 保留原项目来源和署名，并明确标注界面部分经过修改。
+
+---
+
+## 🔗 快速入口
+
+| 项目 | 地址 |
+|---|---|
+| 🌐 新版课程资料库 | **https://xueh0635-design.github.io/lib-hfut/** |
+| 💻 我的 GitHub 仓库 | https://github.com/xueh0635-design/lib-hfut |
+| 📚 原始 lib-hfut 项目 | https://github.com/lib-hfut/lib-hfut |
+| 📄 原项目网站 | https://lib-hfut.github.io/lib-hfut/ |
+
+> 建议直接收藏 **新版课程资料库** 页面，日常查课程、试卷和课件会比直接浏览 GitHub 文件目录方便很多。
